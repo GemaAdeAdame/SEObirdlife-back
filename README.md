@@ -1,2 +1,2 @@
 # SeoBirdLife
-Subido sin node-modules ni carpeta vendor
+Ejecutar el comando: composer require symfony/asset
