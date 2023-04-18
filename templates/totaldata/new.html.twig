@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Totaldata{% endblock %}
+
+{% block body %}
+    <h1>Create new Totaldata</h1>
+
+    {{ include('totaldata/_form.html.twig') }}
+
+    <a href="{{ path('app_totaldata_index') }}">back to list</a>
+{% endblock %}

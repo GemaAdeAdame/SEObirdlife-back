@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Totaldata{% endblock %}
+
+{% block body %}
+    <h1>Edit Totaldata</h1>
+
+    {{ include('totaldata/_form.html.twig', {'button_label': 'Update'}) }}
+
+    <a href="{{ path('app_totaldata_index') }}">back to list</a>
+
+    {{ include('totaldata/_delete_form.html.twig') }}
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Insect{% endblock %}
+
+{% block body %}
+    <h1>Create new Insect</h1>
+
+    {{ include('insect/_form.html.twig') }}
+
+    <a href="{{ path('app_insect_index') }}">back to list</a>
+{% endblock %}

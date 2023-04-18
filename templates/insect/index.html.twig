@@ -1,0 +1,43 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Insect index{% endblock %}
+
+{% block body %}
+ <div class="title-image-container2">
+        <img src="{{ asset('images/mariposa.png') }}" alt="Birds Image">
+        
+    
+    <h1>Insect index</h1>
+</div>
+    <table class="table2">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Image</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for insect in insects %}
+            <tr>
+                <td>{{ insect.id }}</td>
+                <td>{{ insect.name }}</td>
+                <td>{{ insect.description }}</td>
+                <td>{{ insect.image }}</td>
+                <td>
+                    <a class= "show2" href="{{ path('app_insect_show', {'id': insect.id}) }}">show</a>
+                    <a class="edit2" href="{{ path('app_insect_edit', {'id': insect.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="5">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a class= "new" href="{{ path('app_insect_new') }}">Create new</a>
+{% endblock %}

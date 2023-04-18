@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+@media (min-width: 400px) {
+  *{
+    background-color: #ffff !important;
+    font-family: 'Chewy';
+  }
+
+  body{
+    margin: 20px;
+  }
+  h1{
+    text-align: center !important;
+    margin-right: 150px;
+  }
+
+ 
+
+  .table1>:not(caption)>*>* {
+    padding: 4.5rem .5rem;
+    background-color: #ffff !important;
+    border-bottom-width: 1px;
+    box-shadow: color 2 9999px var(--bs-table-accent-bg);
+    border-color: rgb(52, 230, 36);
+    font-size: 14px !important;
+    padding: 0.25rem !important;
+    border-spacing: 0;
+}
+
+.table2>:not(caption)>*>* {
+    padding: 4.5rem .5rem;
+    background-color: #ffff !important;
+    border-bottom-width: 1px;
+    box-shadow: color 2 9999px var(--bs-table-accent-bg);
+    border-color: rgb(255, 63, 121);
+    font-size: 14px !important;
+    padding: 0.25rem !important;
+    border-spacing: 0;
+}
+
+.table3>:not(caption)>*>* {
+    padding: 4.5rem .5rem;
+    background-color: #ffff !important;
+    border-bottom-width: 1px;
+    box-shadow: color 2 9999px var(--bs-table-accent-bg);
+    border-color: rgb(245, 62, 123);
+    font-size: 14px !important;
+    padding: 0.25rem !important;
+    border-spacing: 0;
+}
+
+.table1
+    tbody, td, tfoot, th, thead, tr { 
+    width: 100px !important;
+    height: 50px !important;
+  }
+
+a {
+        
+  text-decoration: underline;
+  background-color: #6BC047 !important;
+  padding: 5px !important;
+  margin-top: 80px;
+  border-radius: 10px;
+  border-color: #000;
+  text-decoration: none;
+  color:#000;
+  border-color: #000;
+}
+
+a:hover{
+  background-color: #066bee !important;
+  color: #ffffff;
+}
+
+.sf-toolbarreset {
+    background-color: #222 !important;
+    bottom: 0;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    color: #EEE;
+    font: 11px Arial, sans-serif;
+    left: 0;
+    margin: 0;
+    padding: 0 36px 0 0;
+    position: fixed;
+    right: 0;
+    text-align: left;
+    text-transform: none;
+    z-index: 99999;
+    direction: ltr;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    
+    }
+
+
+    img, svg{
+    vertical-align: middle;
+    height: 10px;
+    width: 4%;
+    text-align: center;
+    margin-left: 10%;
+     
+     }
+     .new{
+        padding: 10px;
+     }
+     .a.show2{
+        background-color: #FFD064;
+     }
+
+     a {
+          
+        text-decoration: underline;
+        background-color: #FFD064 !important;
+        padding: 5px !important;
+        margin-top: 80px;
+        border-radius: 10px;
+        border-color: #000;
+        text-decoration: none;
+        color:#000;
+        border-color: #000;
+      }
+     .title-image-container1 {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      
+      .title-image-container1 img {
+        max-width: 100%;
+        height: auto;
+        margin-right: 20px;
+      }
+      
+      .title-image-container2 {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      
+      .title-image-container2 img {
+        max-width: 100%;
+        height: auto;
+        margin-right: 20px;
+      }
+      
+      .title-image-container3 {
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      
+      .title-image-container3 img {
+        max-width: 100%;
+        height: auto;
+        margin-right: 20px;
+      }
+      
+      }
+
+      @media (max-width: 1200px) {
+
+    *{
+    
+      font-family: 'Chewy';
+    }
+  
+    body{
+      margin: 20px;
+      background-color: #ffffff !important;
+      ;
+    }
+    h1{
+      text-align: center !important;
+    }
+  
+    button, input, optgroup, select, textarea {
+        margin: 5px;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+  
+    .table1>:not(caption)>*>* {
+      padding: 4.5rem .5rem;
+      background-color: #ffff !important;
+      border-bottom-width: 1px;
+      box-shadow: color 2 9999px var(--bs-table-accent-bg);
+      border-color: rgb(52, 230, 36);
+      font-size: 14px !important;
+      padding: 0.25rem !important;
+      border-spacing: 0;
+  }
+  
+  .table1
+      tbody, td, tfoot, th, thead, tr { 
+      width: 100px !important;
+      height: 50px !important;
+    }
+  
+  a {
+          
+    text-decoration: underline;
+    background-color: #FFD064 !important;
+    padding: 5px !important;
+    margin-top: 80px;
+    border-radius: 10px;
+    border-color: #000;
+    text-decoration: none;
+    color:#000;
+    border-color: #000;
+  }
+  
+  a:hover{
+    background-color: #066bee !important;
+    color: #ffffff;
+  }
+  
+  .sf-toolbarreset {
+      background-color: #222 !important;
+      bottom: 0;
+      box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+      color: #EEE;
+      font: 11px Arial, sans-serif;
+      left: 0;
+      margin: 0;
+      padding: 0 36px 0 0;
+      position: fixed;
+      right: 0;
+      text-align: left;
+      text-transform: none;
+      z-index: 99999;
+      direction: ltr;
+      -webkit-font-smoothing: subpixel-antialiased;
+      -moz-osx-font-smoothing: auto;
+      
+      }
+  
+  
+      img, svg{
+      vertical-align: middle;
+      width: 7%;
+      text-align: center;
+      margin-left: 30%;
+       
+       }
+  
+       .title-image-container {
+          display: flex;
+          justify-content: center !important;
+          align-items: center;
+          margin-bottom: 20px;
+        }
+        
+        .title-image-container img {
+          max-width: 100%;
+          height: auto;
+          margin-right: 20px;
+        }
+        
+        .bird.id {
+            display: block;
+            text-align: center !important;
+        }
+        .bird.name {
+            display: block;
+        }
+
+     
+        table.table1 td:nth-child(3) {
+            width: 30%;
+        }
+
+        .a.show{
+            padding: 10px;
+        }
+        }
