@@ -3,7 +3,10 @@
 {% block title %}New Insect{% endblock %}
 
 {% block body %}
+<div class="title-image-container2">
+    <img src="{{ asset('images/mariposa.png') }}" alt="Birds Image">
     <h1>Create new Insect</h1>
+</div>
 
     {{ include('insect/_form.html.twig') }}
 
