@@ -3,9 +3,14 @@
 {% block title %}New Birds{% endblock %}
 
 {% block body %}
-    <h1>Create new Birds</h1>
+<div class="title-image-container1">
+        <img src="{{ asset('images/petirojoIzq.png') }}" alt="Birds Image">
+        <h1>Create new Birds</h1>
+    </div>
+   
 
     {{ include('birds/_form.html.twig') }}
 
-    <a href="{{ path('app_birds_index') }}">back to list</a>
+    <a type="button" class="btn btn-success" href="{{ path('app_birds_index') }}">back to list</a>
+
 {% endblock %}

@@ -3,11 +3,15 @@
 {% block title %}Edit Birds{% endblock %}
 
 {% block body %}
-    <h1>Edit Birds</h1>
+<div class="title-image-container1">
+        <img src="{{ asset('images/petirojoIzq.png') }}" alt="Birds Image">
+        <h1>Edit Birds</h1>
+    </div>
+    
 
     {{ include('birds/_form.html.twig', {'button_label': 'Update'}) }}
 
-    <a href="{{ path('app_birds_index') }}">back to list</a>
+    <a type="button" class="btn btn-info" href="{{ path('app_birds_index') }}">back to list</a>
 
     {{ include('birds/_delete_form.html.twig') }}
 {% endblock %}
