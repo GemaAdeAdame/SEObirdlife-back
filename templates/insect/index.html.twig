@@ -7,6 +7,9 @@
     <img src="{{ asset('images/mariposa.png') }}" alt="Birds Image">
     <h1>Insect index</h1>
 </div>
+<a class="btn btn-success" href="{{ path('app_insect_new') }}">Create new</a>
+     <a class= "btn btn-success" href="{{ path('app_birds_index') }}">Volver a birds</a>
+     <a class= "btn btn-success" href="{{ path('app_plant_index') }}">Ir a plants</a>
     <table class="table table-striped table-hover">
         <thead>
             <tr>
@@ -37,7 +40,5 @@
         </tbody>
     </table>
 
-    <a class="btn btn-success" href="{{ path('app_insect_new') }}">Create new</a>
-     <a class= "btn btn-success" href="{{ path('app_birds_index') }}">Volver a birds</a>
-     <a class= "btn btn-success" href="{{ path('app_plant_index') }}">Ir a plants</a>
+    
 {% endblock %}
